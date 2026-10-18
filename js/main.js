@@ -24,6 +24,7 @@ function validateData() {
     }
     else if (pass != confirm) {
         result.innerHTML = "Password not matched";
+        return false;
     }
 
 }
